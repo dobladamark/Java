@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class PayrollSystem {
 
     public static void main(String[] args) {
-     
+
+        //SIMPLE PAYROLL SYSTEM USING CONDITIONAL STATEMENT
+        
         Scanner in = new Scanner(System.in);
         
         long empNo;
