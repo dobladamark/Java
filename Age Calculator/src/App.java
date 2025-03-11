@@ -22,7 +22,7 @@ public class App {
                 // If birth date is in the future
                 if (birthDate.isAfter(today)) {
                     System.out.println("Error: Birthdate cannot be in the future. Please try again.");
-                    birthDate = null; // Reset to keep loop running
+                    birthDate = null; 
                 }
             } catch (Exception e) {
                 System.out.println("Invalid format! Please enter date in YYYY-MM-DD format.");
